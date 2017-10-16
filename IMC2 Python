@@ -1,0 +1,6 @@
+import os
+t= float(input('inserez votre taille :'))
+p= float(input('inserez votre poids :'))
+imc=p/(t*t)
+print (imc)
+os.system("pause")
