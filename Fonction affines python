@@ -1,0 +1,8 @@
+import os
+a= float (input('a='))
+b= float (input('b='))
+
+for x in range (0, 10):
+    fx=a*x+b
+    print ("f(",x,")=",fx)
+os.system("pause")
